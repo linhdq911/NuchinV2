@@ -11,7 +11,7 @@ import BottomTabNav from './BottomTabNav';
 import ChatMess from '../screens/ChatMess';
 
 import SplashScreen from 'react-native-splash-screen';
-import Calender from '../screens/Calender';
+import Calen from '../screens/Calen';
 
 const Stack = createNativeStackNavigator();
 
@@ -61,16 +61,15 @@ const AppNavigator = () => {
       />
 
       <Stack.Screen
-        options={{headerShown:true}}
+        options={{headerShown: true}}
         name="ChatMess"
         component={ChatMess}
       />
- <Stack.Screen
-        options={{headerShown:false}}
-        name="Calender"
-        component={Calender}
+      <Stack.Screen
+        options={{headerShown: false}}
+        name="Calen"
+        component={Calen}
       />
-      
     </Stack.Navigator>
     // </NavigationContainer>
   );

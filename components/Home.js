@@ -102,7 +102,7 @@ const Home = () => {
           <TouchableOpacity
             style={styles.touchDail}
             onPress={() => {
-              navigation.navigate('Calender');
+              navigation.navigate('Calen');
             }}>
             <Image
               source={require('../image/uit_calender.png')}
@@ -138,34 +138,49 @@ const Home = () => {
                 style={{left: '110%'}}
               />
             </View>
-
-            <View style={{flexDirection: 'row'}}>
-              <View
-                style={{
-                  marginHorizontal: '4%',
-                  backgroundColor: '#fff',
-                  borderRadius: 15,
-                }}>
-                <Image
-                  source={require('../image/Rectangle1859.png')}
-                  style={{width: 197, height: 149, borderRadius: 15}}
-                />
-                <Text style={{fontSize: 18, color: '#000000'}}>
-                  Cơm gạo lứt bò xào rau củ
-                </Text>
-                <Text style={{color: '#000000', fontSize: 14}}>
-                  Gói truyền thống
-                </Text>
+            <ScrollView>
+              <View style={{}}>
+                <View
+                  style={styles.scolviewTocu}>
+                  <Image
+                    source={require('../image/Rectangle1859.png')}
+                    style={{width: 197, height: 149, borderRadius: 15}}
+                  />
+                  <Text style={{fontSize: 18, color: '#000000'}}>
+                    Cơm gạo lứt bò xào rau củ
+                  </Text>
+                  <Text style={{color: '#000000', fontSize: 14}}>
+                    Gói truyền thống
+                  </Text>
+                </View>
+                <View
+                  style={styles.scolviewTocu}>
+                  <Image
+                    source={require('../image/Rectangle1859.png')}
+                    style={{width: 197, height: 149, borderRadius: 15}}
+                  />
+                  <Text style={{fontSize: 18, color: '#000000'}}>
+                    Cơm gạo lứt bò xào rau củ
+                  </Text>
+                  <Text style={{color: '#000000', fontSize: 14}}>
+                    Gói truyền thống
+                  </Text>
+                </View>
+                <View
+                  style={styles.scolviewTocu}>
+                  <Image
+                    source={require('../image/Rectangle1859.png')}
+                    style={{width: 197, height: 149, borderRadius: 15}}
+                  />
+                  <Text style={{fontSize: 18, color: '#000000'}}>
+                    Cơm gạo lứt bò xào rau củ
+                  </Text>
+                  <Text style={{color: '#000000', fontSize: 14}}>
+                    Gói truyền thống
+                  </Text>
+                </View>
               </View>
-              <View>
-                <Image
-                  source={require('../image/Rectangle1859.png')}
-                  style={{width: 197, height: 149, borderRadius: 15}}
-                />
-                <Text>Cơm gạo lứt bò xào rau củ</Text>
-                <Text>Gói truyền thống</Text>
-              </View>
-            </View>
+            </ScrollView>
           </View>
         </View>
       </ScrollView>
@@ -235,5 +250,11 @@ const styles = StyleSheet.create({
   touchImg: {
     width: '80%',
     height: '80%',
+  },
+  scolviewTocu: {
+    marginHorizontal: '4%',
+    backgroundColor: '#fff',
+    borderRadius: 15,
+    width:197
   },
 });
