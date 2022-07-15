@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/nuchin.iml" filepath="$PROJECT_DIR$/.idea/modules/nuchin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/nuchin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/nuchin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-417868122/nuchin.react-native-community_clipboard.iml" filepath="$PROJECT_DIR$/.idea/modules/-417868122/nuchin.react-native-community_clipboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-26216267/nuchin.react-native-pager-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-26216267/nuchin.react-native-pager-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1029656169/nuchin.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1029656169/nuchin.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1651305921/nuchin.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1651305921/nuchin.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2114164660/nuchin.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/-2114164660/nuchin.react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/930619862/nuchin.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/930619862/nuchin.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/581788115/react-native-gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/581788115/react-native-gradle-plugin.iml" />
+    </modules>
+  </component>
+</project>
